@@ -53,12 +53,12 @@ public class AgentTester {
 		agentSet.add(AgentLoader.getCompiledAgent(COMPILED_TESTING_AGENT).get());
 
 		// Example of adding a Scripted (interpreted) Agent to the agent set:
-		final String SCRIPTED_TESTING_AGENT = System.getProperty("user.dir") + "\\src\\COSC461\\Sample_ScriptedAgents\\GamePlayerAgentScript_1.js";
+	//	final String SCRIPTED_TESTING_AGENT = System.getProperty("user.dir") + "\\src\\COSC461\\Sample_ScriptedAgents\\GamePlayerAgentScript_1.js";
 
-		agentSet.add(AgentLoader.getScriptedAgent(SCRIPTED_TESTING_AGENT).get());
+	//	agentSet.add(AgentLoader.getScriptedAgent(SCRIPTED_TESTING_AGENT).get());
 
 		// Example of adding all agents in a particular Java PACKAGE to the set:
-		final String COMPILED_AGENTS_PACKAGE = "COSC461";
+		/*final String COMPILED_AGENTS_PACKAGE = "COSC461";
 
 		agentSet.addAll(AgentLoader.getAllCompiledAgents(COMPILED_AGENTS_PACKAGE));
 
@@ -69,7 +69,7 @@ public class AgentTester {
 
 		// ***** END: EXAMPLE OF ADDING PARTICIPATING AGENTS TO A SET ******
 		// *****************************************************************
-		
+		*/
 		
 		// Show all of the agents which have been loaded.
 		showAgentInfo(agentSet);
